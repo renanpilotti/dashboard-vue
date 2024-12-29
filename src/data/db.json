@@ -1,0 +1,388 @@
+{
+  "products": [
+    {
+      "productId": 1,
+      "categoryId": 1,
+      "regionId": 1,
+      "productName": "Aveia em Flocos",
+      "category": "cereais",
+      "region": "norte",
+      "salesTotal": 1250.5,
+      "month": "janeiro",
+      "soldQuantity": 30
+    },
+    {
+      "productId": 2,
+      "categoryId": 2,
+      "regionId": 2,
+      "productName": "Chá de Hibisco",
+      "category": "bebidas",
+      "region": "sul",
+      "salesTotal": 950.3,
+      "month": "fevereiro",
+      "soldQuantity": 100
+    },
+    {
+      "productId": 3,
+      "categoryId": 3,
+      "regionId": 3,
+      "productName": "Suco de Laranja Integral",
+      "category": "bebidas naturais",
+      "region": "sudeste",
+      "salesTotal": 1420.75,
+      "month": "março",
+      "soldQuantity": 98
+    },
+    {
+      "productId": 4,
+      "categoryId": 4,
+      "regionId": 4,
+      "productName": "Mix de Castanhas",
+      "category": "snacks",
+      "region": "nordeste",
+      "salesTotal": 1120.45,
+      "month": "abril",
+      "soldQuantity": 63
+    },
+    {
+      "productId": 5,
+      "categoryId": 5,
+      "regionId": 5,
+      "productName": "Doce de Banana",
+      "category": "doces naturais",
+      "region": "centro-oeste",
+      "salesTotal": 1320.6,
+      "month": "maio",
+      "soldQuantity": 62
+    },
+    {
+      "productId": 6,
+      "categoryId": 1,
+      "regionId": 1,
+      "productName": "Granola Tradicional",
+      "category": "cereais",
+      "region": "norte",
+      "salesTotal": 1450.3,
+      "month": "junho",
+      "soldQuantity": 2
+    },
+    {
+      "productId": 7,
+      "categoryId": 2,
+      "regionId": 2,
+      "productName": "Água de Coco",
+      "category": "bebidas",
+      "region": "sul",
+      "salesTotal": 1250.8,
+      "month": "julho",
+      "soldQuantity": 28
+    },
+    {
+      "productId": 8,
+      "categoryId": 3,
+      "regionId": 3,
+      "productName": "Smoothie de Morango",
+      "category": "bebidas naturais",
+      "region": "sudeste",
+      "salesTotal": 1350.95,
+      "month": "agosto",
+      "soldQuantity": 200
+    },
+    {
+      "productId": 9,
+      "categoryId": 4,
+      "regionId": 4,
+      "productName": "Chips de Maçã",
+      "category": "snacks",
+      "region": "nordeste",
+      "salesTotal": 980.4,
+      "month": "setembro",
+      "soldQuantity": 280
+    },
+    {
+      "productId": 10,
+      "categoryId": 5,
+      "regionId": 5,
+      "productName": "Pasta de Amendoim",
+      "category": "doces naturais",
+      "region": "centro-oeste",
+      "salesTotal": 1180.75,
+      "month": "outubro",
+      "soldQuantity": 230
+    },
+    {
+      "productId": 11,
+      "categoryId": 1,
+      "regionId": 1,
+      "productName": "Farinha de Linhaça",
+      "category": "cereais",
+      "region": "norte",
+      "salesTotal": 3020.4,
+      "month": "novembro",
+      "soldQuantity": 129
+    },
+    {
+      "productId": 12,
+      "categoryId": 2,
+      "regionId": 2,
+      "productName": "Suco Verde",
+      "category": "bebidas",
+      "region": "sul",
+      "salesTotal": 4870.3,
+      "month": "dezembro",
+      "soldQuantity": 30
+    },
+    {
+      "productId": 13,
+      "categoryId": 3,
+      "regionId": 3,
+      "productName": "Suco de Uva Integral",
+      "category": "bebidas naturais",
+      "region": "sudeste",
+      "salesTotal": 1590.6,
+      "month": "janeiro",
+      "soldQuantity": 30
+    },
+    {
+      "productId": 14,
+      "categoryId": 4,
+      "regionId": 4,
+      "productName": "Torrada Integral",
+      "category": "snacks",
+      "region": "nordeste",
+      "salesTotal": 710.4,
+      "month": "fevereiro",
+      "soldQuantity": 30
+    },
+    {
+      "productId": 15,
+      "categoryId": 5,
+      "regionId": 5,
+      "productName": "Geleia de Frutas Vermelhas",
+      "category": "doces naturais",
+      "region": "centro-oeste",
+      "salesTotal": 1450.75,
+      "month": "março",
+      "soldQuantity": 30
+    },
+    {
+      "productId": 16,
+      "categoryId": 1,
+      "regionId": 1,
+      "productName": "Cereal de Quinoa",
+      "category": "cereais",
+      "region": "norte",
+      "salesTotal": 1180.4,
+      "month": "abril",
+      "soldQuantity": 30
+    },
+    {
+      "productId": 17,
+      "categoryId": 2,
+      "regionId": 2,
+      "productName": "Matcha Latte",
+      "category": "bebidas",
+      "region": "sul",
+      "salesTotal": 910.25,
+      "month": "maio",
+      "soldQuantity": 30
+    },
+    {
+      "productId": 18,
+      "categoryId": 3,
+      "regionId": 3,
+      "productName": "Smoothie de Abacaxi",
+      "category": "bebidas naturais",
+      "region": "sudeste",
+      "salesTotal": 1240.5,
+      "month": "junho",
+      "soldQuantity": 30
+    },
+    {
+      "productId": 19,
+      "categoryId": 4,
+      "regionId": 4,
+      "productName": "Granola com Frutas Secas",
+      "category": "snacks",
+      "region": "nordeste",
+      "salesTotal": 1130.95,
+      "month": "julho",
+      "soldQuantity": 30
+    },
+    {
+      "productId": 20,
+      "categoryId": 5,
+      "regionId": 5,
+      "productName": "Melado de Cana",
+      "category": "doces naturais",
+      "region": "centro-oeste",
+      "salesTotal": 1370.8,
+      "month": "agosto",
+      "soldQuantity": 30
+    },
+    {
+      "productId": 21,
+      "categoryId": 1,
+      "regionId": 1,
+      "productName": "Farinha de Coco",
+      "category": "cereais",
+      "region": "norte",
+      "salesTotal": 3020.75,
+      "month": "setembro",
+      "soldQuantity": 30
+    },
+    {
+      "productId": 22,
+      "categoryId": 2,
+      "regionId": 2,
+      "productName": "Chá Preto",
+      "category": "bebidas",
+      "region": "sul",
+      "salesTotal": 890.6,
+      "month": "outubro",
+      "soldQuantity": 30
+    },
+    {
+      "productId": 23,
+      "categoryId": 3,
+      "regionId": 3,
+      "productName": "Smoothie Tropical",
+      "category": "bebidas naturais",
+      "region": "sudeste",
+      "salesTotal": 1540.25,
+      "month": "novembro",
+      "soldQuantity": 30
+    },
+    {
+      "productId": 24,
+      "categoryId": 4,
+      "regionId": 4,
+      "productName": "Chips de Coco",
+      "category": "snacks",
+      "region": "nordeste",
+      "salesTotal": 760.8,
+      "month": "dezembro",
+      "soldQuantity": 30
+    },
+    {
+      "productId": 25,
+      "categoryId": 5,
+      "regionId": 5,
+      "productName": "Doce de Abacaxi",
+      "category": "doces naturais",
+      "region": "centro-oeste",
+      "salesTotal": 1180.6,
+      "month": "janeiro",
+      "soldQuantity": 30
+    },
+    {
+      "productId": 26,
+      "categoryId": 1,
+      "regionId": 1,
+      "productName": "Cereal de Milho",
+      "category": "cereais",
+      "region": "norte",
+      "salesTotal": 920.4,
+      "month": "fevereiro",
+      "soldQuantity": 30
+    },
+    {
+      "productId": 27,
+      "categoryId": 2,
+      "regionId": 2,
+      "productName": "Chá Verde com Limão",
+      "category": "bebidas",
+      "region": "sul",
+      "salesTotal": 970.75,
+      "month": "março",
+      "soldQuantity": 30
+    },
+    {
+      "productId": 28,
+      "categoryId": 3,
+      "regionId": 3,
+      "productName": "Suco Detox",
+      "category": "bebidas naturais",
+      "region": "sudeste",
+      "salesTotal": 1340.5,
+      "month": "abril",
+      "soldQuantity": 30
+    },
+    {
+      "productId": 29,
+      "categoryId": 4,
+      "regionId": 4,
+      "productName": "Mix de Sementes",
+      "category": "snacks",
+      "region": "nordeste",
+      "salesTotal": 680.3,
+      "month": "maio",
+      "soldQuantity": 30
+    },
+    {
+      "productId": 30,
+      "categoryId": 5,
+      "regionId": 5,
+      "productName": "Doce de Caju",
+      "category": "doces naturais",
+      "region": "centro-oeste",
+      "salesTotal": 1430.8,
+      "month": "junho",
+      "soldQuantity": 30
+    }
+  ],
+  "categories": [
+    {
+      "categoryId": 1,
+      "categoryName": "Cereais"
+    },
+    {
+      "categoryId": 2,
+      "categoryName": "Bebidas"
+    },
+    {
+      "categoryId": 3,
+      "categoryName": "Bebidas Naturais"
+    },
+    {
+      "categoryId": 4,
+      "categoryName": "Snacks"
+    },
+    {
+      "categoryId": 5,
+      "categoryName": "Doces Naturais"
+    }
+  ],
+  "regions": [
+    {
+      "regionId": 1,
+      "regionName": "Norte",
+      "salesTotal": 8500,
+      "coordinates": [-4, -62]
+    },
+    {
+      "regionId": 2,
+      "regionName": "Sul",
+      "salesTotal": 12000,
+      "coordinates": [-28, -52]
+    },
+    {
+      "regionId": 3,
+      "regionName": "Sudeste",
+      "salesTotal": 16000,
+      "coordinates": [-20, -45]
+    },
+    {
+      "regionId": 4,
+      "regionName": "Nordeste",
+      "salesTotal": 14000,
+      "coordinates": [-9, -40]
+    },
+    {
+      "regionId": 5,
+      "regionName": "Centro-Oeste",
+      "salesTotal": 10000,
+      "coordinates": [-14, -54]
+    }
+  ]
+}
