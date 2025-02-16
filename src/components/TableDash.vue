@@ -75,14 +75,6 @@ const currentPageData = computed(() => {
   return sortedTableBody.value.slice(start, end);
 });
 
-const prevPage = () => {
-  if (currentPage.value > 1) currentPage.value--;
-};
-
-const nextPage = () => {
-  if (currentPage.value < totalPages.value) currentPage.value++;
-};
-
 const goToPage = (page: number) => {
   currentPage.value = page;
 };

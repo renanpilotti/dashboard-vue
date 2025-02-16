@@ -16,14 +16,14 @@
 </template>
 
 <script lang="ts" setup>
-import { defineProps, onMounted, ref, watch, computed } from "vue";
+import { defineProps, onMounted, ref, watchEffect, computed } from "vue";
 import Chart, { ChartTypeRegistry } from "chart.js/auto";
 import { useStore } from "vuex";
 
 const store = useStore();
 
 const props = defineProps(["itemList", "xName", "yName", "title", "chartType"]);
-const randomId = Math.floor(Math.random() * 100000);
+const randomId = ref(Math.floor(Math.random() * 100000));
 
 const selectedCategory = ref<string>("");
 const selectedRegion = ref<string>("");
@@ -50,7 +50,9 @@ const drawChart = (
     xValue: item[xName],
     yValue: item[yName],
   }));
-  const ctx = document.getElementById(`chart${randomId}`) as HTMLCanvasElement;
+  const ctx = document.getElementById(
+    `chart${randomId.value}`
+  ) as HTMLCanvasElement;
   if (ctx && chartData.length > 0) {
     chartInstance = new Chart(ctx, {
       type: chartType,
@@ -140,7 +142,7 @@ const filterProductsByKey = (filterKey: string, filteredList: any) => {
   return resultado;
 };
 
-onMounted(async () => {
+onMounted(() => {
   drawChart(
     filteredProducts.value,
     props.xName,
@@ -150,16 +152,7 @@ onMounted(async () => {
   );
 });
 
-watch(selectedCategory, async () => {
-  drawChart(
-    filteredProducts.value,
-    props.xName,
-    props.yName,
-    props.title,
-    props.chartType
-  );
-});
-watch(selectedRegion, async () => {
+watchEffect(() => {
   drawChart(
     filteredProducts.value,
     props.xName,

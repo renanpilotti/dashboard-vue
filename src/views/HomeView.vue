@@ -5,21 +5,18 @@
         CardDash(:cardTitle="card.title" :cardValue="card.value" :iconName="card.icon")
       .col-md-12.mb-4
         .card.rounded-4.p-4
-          ChartDash(v-if="!isLoading" :itemList="products" :xName="'month'" :yName="'salesTotal'" 
+          ChartDash(:itemList="products" :xName="'month'" :yName="'salesTotal'" 
           :title="'Venda total por mês (R$)'" :chartType="'line'")
-          AppLoader(v-else)    
       .col-md-12.col-xl-6.mb-3.mb-xl-0
         .card.rounded-4.p-4.h-100
-          ChartDash(v-if="!isLoading" :itemList="products" :xName="'productName'" :yName="'salesTotal'" 
+          ChartDash(:itemList="products" :xName="'productName'" :yName="'salesTotal'" 
           :title="'Venda total por produto (R$)'" :chartType="'bar'")
-          AppLoader(v-else)     
       .col-md-12.col-xl-6.h-100
-        TableDash(v-if="!isLoading" :topProducts="topProducts" :tableConfig="productsTable")
-        AppLoader(v-else)   
+        TableDash(:tableConfig="productsTable")
 </template>
 
 <script lang="ts" setup>
-import { computed, onMounted, ref } from "vue";
+import { computed } from "vue";
 import { useStore } from "vuex";
 import ChartDash from "../components/ChartDash.vue";
 import AppLoader from "../../src/components/AppLoader.vue";
@@ -76,11 +73,5 @@ const cardDashData = computed(() => {
       icon: "fa-chart-line",
     },
   ];
-});
-
-onMounted(async () => {
-  await store.dispatch("fetchProducts");
-  await store.dispatch("fetchCategories");
-  await store.dispatch("fetchRegions");
 });
 </script>

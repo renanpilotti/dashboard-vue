@@ -60,15 +60,15 @@
 </template>
 
 <style lang="scss">
-*:has(> .loader) {
-  position: relative;
-  min-height: 300px;
-}
 .loader {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  opacity: 0.4;
+  text-align: center;
   svg {
     height: 100%;
     width: 70px;

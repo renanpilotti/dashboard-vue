@@ -64,7 +64,6 @@ const drawHeatmap = (heatmapId) => {
 };
 
 onMounted(async () => {
-  await store.dispatch("fetchRegions");
   drawHeatmap("map");
 });
 </script>
